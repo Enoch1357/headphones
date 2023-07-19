@@ -1,0 +1,152 @@
+body
+{
+    border: 5px solid black;
+    height: 335vh;
+    padding: 10px;
+}
+
+body div
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header
+{
+    border: 0;
+    height: 100px;
+    padding: 5px;
+}
+
+header div
+{
+    border: 0;
+    padding: 3px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.company-logo
+{
+    border: 0;
+    width: 350px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    display: flex;
+}
+
+.company-logo a
+{
+    border: 0;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-links
+{
+    width: 370px;
+    padding: 1px;
+    border: 0;
+}
+
+#nav-links a
+{
+    border: 0;
+    width: 120px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+main
+{
+    border: 0;
+    height: 3000px;
+    margin-top: 10px;
+}
+
+main #section-1
+{
+    border: 0;
+    padding: 5px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+#section-1 #block-1a
+{
+    border: 0;
+    width: 50%;
+    padding: 2px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#section-1 #block-1a .Title
+{
+    border: 0;
+    margin: 0;
+    height:30%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    color: white;
+    font-size: xx-large;
+}
+
+#section-1 #block-1a #p1
+{
+    border: 0;
+    margin: 0;
+    height: 20%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    color: white;
+    font-size: x-large;
+}
+
+#section-1 #block-1a button
+{
+    border: 0;
+    height: 22%;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    background-color: rgba(255, 101, 101, 1);
+    color: white;
+}
+
+#section-1 #block-1a p
+{
+    border: 0;
+    width: 98%;
+    height: 70%;
+    margin: 0;
+    color: white;
+    font-size: xx-large;
+}

@@ -1,0 +1,354 @@
+body
+{
+    border: 5px solid black;
+    height: 335vh;
+    padding: 10px;
+}
+
+body div
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header
+{
+    border: 0;
+    height: 100px;
+    padding: 5px;
+}
+
+header div
+{
+    border: 0;
+    padding: 3px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.company-logo
+{
+    border: 0;
+    width: 350px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    display: flex;
+}
+
+.company-logo a
+{
+    border: 0;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-links
+{
+    width: 370px;
+    padding: 1px;
+    border: 0;
+}
+
+#nav-links a
+{
+    border: 0;
+    width: 120px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+main
+{
+    border: 0;
+    height: 3000px;
+    margin-top: 10px;
+}
+
+main #section-1
+{
+    border: 0;
+    padding: 5px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+#section-1 #block-1a
+{
+    border: 0;
+    width: 50%;
+    padding: 2px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#section-1 #block-1a .Title
+{
+    border: 0;
+    margin: 0;
+    height:30%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    color: white;
+    font-size: xx-large;
+}
+
+#section-1 #block-1a #p1
+{
+    border: 0;
+    margin: 0;
+    height: 20%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    color: white;
+    font-size: x-large;
+}
+
+#section-1 #block-1a button
+{
+    border: 0;
+    height: 22%;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    background-color: rgba(255, 101, 101, 1);
+    color: white;
+}
+
+#section-1 #block-1a p
+{
+    border: 0;
+    width: 98%;
+    height: 70%;
+    margin: 0;
+    color: white;
+    font-size: xx-large;
+}
+
+
+
+main #section-2
+{
+    border: 0;
+    padding: 5px;
+    height: 800px;
+    margin-top: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-2 h2
+{
+    border: 0;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+#section-2 p
+{
+    border: 0;
+    margin: 0;
+    height: 135px;
+    width: 50%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+#section-2 div
+{
+    border: 0;
+    height: 300px;
+    padding: 2px;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#section-2 div div
+{
+    border: 0;
+    height: 98%;
+    width: 22%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-2 div div image
+{
+    margin-bottom: 1px;
+    height: 50%;
+}
+
+#section-2 div div h4
+{
+    border: 0;
+    margin-bottom: 1px;
+    height: 30%;
+    font-size: xx-large;
+}
+
+#section-2 div div p
+{
+    border: 0;
+    height: 20%;
+    width: 99%;
+    margin: 0;
+    font-size: x-large;
+}
+
+
+
+main #section-3
+{
+    border: 0;
+    padding: 5px;
+    margin-top: 5px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-3 h2
+{
+    border: 0;
+    width: 55%;
+    height: 100px;
+    color: white;
+    font-size: xx-large;
+}
+
+#section-3 p
+{
+    border: 0;
+    width: 65%;
+    height: 200px;
+    color: white;
+    font-size: xx-large;
+}
+
+#section-3 div
+{
+    border: 0;
+    padding: 3px;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#section-3 div div
+{
+    border: 0;
+    border-radius: 30px;
+    width: 20%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(255, 101, 101, 1);
+}
+
+#section-3 div div h1
+{
+    color: white;
+    font-size: 350%;
+}
+
+#section-3 div div p
+{
+    color: white;
+    font-size: x-large;
+}
+
+main #section-4
+{
+    border: 0;
+    padding: 5px;
+    height: 535px;
+    margin-top: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-4 h2
+{
+    border: 0;
+    width: 20%;
+    height: 50px;
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+#section-4 p
+{
+    border: 1px solid #bbb;
+    border-radius: 10px;
+	background: #ddd;
+	color: black;
+    width: 25%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+#section-4 button
+{
+    border: 0;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background-color: rgba(255, 101, 101, 1);
+    color: white;
+}
